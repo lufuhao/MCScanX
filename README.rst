@@ -5,6 +5,14 @@ MCScanX
 
 .. contents ::
 
+Revisions:
+  @20200810
+    for x64
+        sed -i '4i #include <unistd.h>' msa.cc
+        sed -i '2i #include <getopt.h>' dissect_multiple_alignment.cc
+        sed -i '2i #include <getopt.h>' detect_collinear_tandem_arrays.cc
+    Add Official manual
+
 Overview
 ---------
 

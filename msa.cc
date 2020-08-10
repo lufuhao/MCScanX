@@ -1,6 +1,7 @@
 /* Author: Yupeng Wang <wyp1125@uga.edu> March 31, 2011
  * This is the new code for generating and printing multiple alignment based on progressive alignment 
 */
+#include <unistd.h>
 #include "msa.h"
 
 static vector <New_endpoint> endpoints;
